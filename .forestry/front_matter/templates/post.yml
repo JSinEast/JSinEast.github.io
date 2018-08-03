@@ -22,7 +22,7 @@ fields:
   label: date
   description: The date of the article
 - type: file
-  name: image
+  name: img
   label: image
   description: image of the blogpost
 - type: textarea

@@ -34,4 +34,4 @@ fields:
     schema:
       format: markdown
 pages:
-- _posts/hello.md
+- _posts/2018-08-03-hello.md

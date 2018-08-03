@@ -2,7 +2,7 @@
 layout: post
 title: An old house 2
 date: 2017-03-30 00:00:00 +0000
-img: house.jpg
+img: "/100_0323.JPG"
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis

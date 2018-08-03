@@ -1,0 +1,35 @@
+---
+label: post
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: layout
+  name: layout
+  description: put post here
+  default: post
+  hidden: false
+  config:
+    required: true
+- type: text
+  name: title
+  label: title
+  description: title of the blog post
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+  description: The date of the article
+- type: file
+  name: image
+  label: image
+  description: image of the blogpost
+- type: textarea
+  name: description
+  label: description
+  description: description of the blogpost
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown

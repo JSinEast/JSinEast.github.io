@@ -35,3 +35,4 @@ fields:
       format: markdown
 pages:
 - _posts/2018-08-03-hello.md
+- _posts/hello2.md

@@ -1,31 +1,213 @@
----
-layout: default
+--- 
+title: Body Electric 
+layout: landing 
 ---
 
-{% for post in paginator.posts %}
-<article class="main-article">
-  <div class="wrap-content">
-    <header class="header-article">
-      <h2 class="title-article"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-      <div class="post-date"><span>{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
-    </header>
-    {% if post.img %}
-       <img class="post-image" src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
-    {% endif %}
-    <p>{{post.description}} <a class="more" href="{{post.url | prepend: site.baseurl}}">(Read more...)</a></p>
-  </div>
-</article>
-{% endfor %}
+<body class="homepage">
+	{% include header_landing.html %}
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous"><i class="fa fa-chevron-left" aria-hidden="true"></i> Previous</a>
-  {% else %}
-    <span class="previous"><i class="fa fa-chevron-left" aria-hidden="true"></i> Previous</span>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-  {% else %}
-    <span class="next ">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
-  {% endif %}
-</div>
+	<!-- Main -->
+	<div id="main-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="12u">
+					<section id="intro" class="container">
+							<div class="row">
+								<div class="12u">
+									<section class="first">
+				
+										<header class="major"> 
+											<h2>A DOCUMENTARY FILM TO REVOLUTIONIZE THE WAY WE THINK ABOUT HEALTH AND THE HUMAN BODY</h2>
+										</header>
+										<p>Life is electric. Our vital signs (heart rate, heart rhythm, and brain activity) are electrical signals that doctors
+											use to diagnose medical problems. But the electric nature of life runs much deeper than this. For centuries, scientists
+											have postulated the existence of an electric or electromagnetic field that governs all life. Researchers in more recent
+											times have developed equipment capable of actually measuring this field. Changes in the electromagnetic field occur
+											before, during, and after any change in health status. Treatments based on electromagnetic principles are also now
+											being used to treat a wide range of medical conditions including: pain, anxiety, depression, insomnia, and cancer.
+											Electricity has also been used to regrow limbs in animals and mend fractures in humans. In many cases the appropriate
+											application of electromagnetic fields has been shown to be more effective than the medications that are currently
+											used, and without the side effects. This is very important because prescribed medications are now a leading cause
+											of death – more than 106,000 people die each year in the United States alone due to the side effects of medications.
+											The understanding of the Body Electric has the potential to revolutionize medicine. In the future, medical treatments
+											will be based on the prescription of appropriate frequencies (electroceuticals) rather than pharmaceuticals.</p>
+				
+									</section>
+									<section>
+										<header>
+											<h1>SUPPORTED BY AIS</h1>
+										</header>
+										<div class="row">
+											<div class="6u">
+												<p>Body Electric is supported by The American Institute of Stress who are the Executive Producer of the film. Professor
+													Paul J. Rosch is Chief Scientific Advisor. Professor Rosch is one of the world's leading authorities on the scientific
+													study and application of bioelectromagnetic and subtle energies.</p>
+											</div>
+											<div class="4u">
+												<img src="{{ site.baseurl }}assets/images/ais.jpeg" alt="" />
+											</div>
+										</div>
+				
+									</section>
+								</div>
+						</section>
+				</div>
+
+				<div class="row">
+						<div class="12u">
+								<section id="trailer" class="container">
+
+										<div class="row">
+											<div class="12u">
+													<section class="first">
+									
+															<header class="major">
+																<h2>TRAILER</h2>
+															</header>
+															</section>
+												<section >
+													<div class="row">
+														<div class="8u">
+															<style>
+																.embed-container {
+																	position: relative;
+																	padding-bottom: 56.25%;
+																	height: 0;
+																	overflow: hidden;
+																	max-width: 100%;
+																}
+							
+																.embed-container iframe,
+																.embed-container object,
+																.embed-container embed {
+																	position: absolute;
+																	top: 0;
+																	left: 0;
+																	width: 100%;
+																	height: 100%;
+																}
+															</style>
+															<div class='embed-container'><iframe src='https://www.youtube.com/embed//zvdeflxERlA' frameborder='0' allowfullscreen></iframe></div>
+														</div>
+														<div class="4u">
+															<h2>HD Download $6.99</h2>
+															<p> PAYPAL STUFF </p>
+															<p>(you will be immediatly redirected to your link for downloading the film in HD)</p>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+							
+									</section>
+							</div>
+							</div>
+
+							<div class="row">
+									<div class="12u">
+											<section id="dvd" class="container">
+													<div class="row">
+														<div class="12u">
+															<section class="first">
+									
+																<header class="major">
+																	<h2>DVD</h2>
+																</header>
+																<p>If you order the DVD you will receive a digital copy of the movie in HD while you are waiting for the DVD. You
+																	will immediately be redirected to your link for downloading the movie now.</p>
+															</section>
+															<section>
+																<div class="row">
+																	<div class="6u">
+																		<img src="{{ site.baseurl }}assets/images/dvdcover.jpg" alt="" />
+																	</div>
+																	<div class="4u">
+																		<p>Run time: 68 mins <br/><br/>The price includes shipping to anywhere in the world. All DVD formats are available.
+																			<br/><br/> USD 29.99
+																			<br/>
+																			<br/>
+																			<strong>Please Select Quantity</strong>
+																			<p> Paypal stuff </p>
+																			<br/>
+																		</p>
+																	</div>
+																</div>
+									
+															</section>
+														</div>
+												</section>
+										</div>
+									</div>
+
+									<div class="row">
+											<div class="12u">
+													<section id="contact" class="container">
+															<div class="row">
+																<div class="12u">
+																		<section class="first">
+									
+																				<header class="major">
+																					<h2>GET IN TOUCH</h2>
+																				</header>
+																			
+																			</section>
+																	<section>
+																		<div class="row">
+																			<div class="4u">
+																				<p>To get in touch with Justin Smith please complete the form >>
+																					<br/>
+																					<br/> Thank you!
+																				</p>
+																			</div>
+																			<div class="4u">
+																				<p> THE FORM </p>
+																			</div>
+																		</div>
+																	</section>
+																</div>
+															</div>
+											
+														</section>
+												</div></div>
+
+												<div class="row">
+														<div class="12u">
+																<section class="first">
+									
+																		<header class="major">
+																			<h2>DIRECTOR</h2>
+																		</header>
+																	
+																	</section>
+												<section id="director" class="container">
+														<div class="row">
+															<div class="4u">
+																<p>Justin is the producer/director of <a target="_blank" href="http://www.statinnation.net">STATIN NATION</a> and
+																	<a target="_blank" href="http://www.statinnation.net/statin-nation-ii/">STATIN NATION II</a>. These films expose
+																	the medical corruption that has led to the mass over-prescription of cholesterol-lowering medications. STATIN NATION
+																	II also investigates the real causes of heart disease and looks beyond the current system that puts profit before
+																	patients.
+																</p>
+															</div>
+															<div class="4u">
+																<p>Prior to being a filmmaker, for 4 years, Justin was based at the BBC in West London as a personal trainer and sports
+																	massage therapist. And for six years he was a competitive cyclist.
+																</p>
+																<p>Before his career in the health industry, Justin obtained a degree in engineering and worked as an Applications
+																	Consultant and Account Manager in the IT industry.</p>
+																<p>Justin has also completed the Guardian Masterclass in Investigative Journalism. </p>
+															</div>
+															<div class="4u">
+																<h2>JUSTIN SMITH, PRODUCER/DIRECTOR</h2>
+																<img src="{{ site.baseurl }}assets/images/justinsmith.png" alt="" />
+									
+															</div>
+									
+									
+									
+									
+													</section>
+													</div></div>
+			</div>
+
+

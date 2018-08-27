@@ -154,13 +154,36 @@ layout: landing
 																	<section>
 																		<div class="row">
 																			<div class="4u">
-																				<p>To get in touch with Justin Smith please complete the form >>
+																				<br/>
+																				<p><strong>To get in touch with Justin Smith please complete the form >></strong>
 																					<br/>
 																					<br/> Thank you!
 																				</p>
 																			</div>
-																			<div class="4u">
-																				<p> THE FORM </p>
+																			<div class="8u">
+																				<form class="form" action="https://formspree.io/statinnation@gmail.com" method="POST">
+																					<div class="form-item">
+																						<label class="contact-label" for="firstname">First name:</label>
+																						<input type="text" placeholder="Your first name" id="name" class="contact-input" name="firstname" tabindex="1" required/>
+																					</div>
+																					<div class="form-item">
+																						<label class="contact-label" for="name">Name:</label>
+																						<input type="text" placeholder="Your name" id="name" class="contact-input" name="name" tabindex="2" required/>
+																					</div>
+
+																					<div class="form-item">
+																						<label class="contact-label" for="email">Email:</label>
+																						<input type="email" placeholder="Your email" id="email" class="contact-input" name="_replyto" tabindex="3" required/>
+																					</div>
+																					<div class="form-item">
+																					  <label class="contact-label" for="message">Message:</label>
+																					  <textarea class="contact-textarea" placeholder="Your message" class="contact-input" rows="4" id="message" name="message" tabindex="3" required></textarea>
+																					</div>
+																					<br/>
+																					<div class="form-item">
+																					  <button type="submit" value="Send" class="button big">Send</button>
+																					</div>
+																				  </form>
 																			</div>
 																		</div>
 																	</section>

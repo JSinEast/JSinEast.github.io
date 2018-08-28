@@ -14,7 +14,7 @@
 
 body {
   background: #252122;
-  background-image: url("images/bg02.png");
+
 }
 
 body.is-loading * {
@@ -683,7 +683,7 @@ ol.default li {
 
 #main-wrapper {
   position: relative;
-  background: #f7f7f7 url("images/bg02.png");
+
 }
 
 #main-wrapper:before {
@@ -692,7 +692,7 @@ ol.default li {
   top: 0;
   left: 0;
   width: 100%;
-  background: url("images/bg01.png");
+
   background-size: 100% 100%;
   z-index: 0;
   opacity: 0.1;
@@ -702,7 +702,7 @@ ol.default li {
 }
 
 #main-wrapper .major h2 {
-  background: #f7f7f7 url("images/bg02.png");
+
 }
 
 #footer-wrapper {
@@ -716,7 +716,6 @@ ol.default li {
   top: 0;
   left: 0;
   width: 100%;
-  background: url("images/bg01.png");
   background-size: 100% 100%;
   z-index: 0;
   opacity: 0.5;
@@ -790,4 +789,12 @@ ol.default li {
 
 .gray-bg {
   background-color: #827a7c;
+}
+
+#director {
+  text-align: justify;
+}
+
+#contact{
+  text-align: justify;
 }
